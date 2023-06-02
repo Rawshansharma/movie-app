@@ -1,38 +1,56 @@
-.App {
+.movie-card{
+  width: 90%;
+  height: auto;
+  background-color: rgb(183, 228, 228);
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 50px;
+}
+.App h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movie-card img{
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.movie-card h1{
+  text-align: center;
+  color:rgb(17, 201, 225);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.summary-btn{
+  padding: 10px 20px;
+  border: 2px solid gray ;
+  border-radius: 10px;
+  margin: 5px;
+}
+.summary-btn:hover{
+  cursor: pointer;
   color: white;
+  background-color: gray;
+  
+ }
+ 
+.movie-card p{
+  width: 70%;
+  text-align: center;
+  margin-left: 17%;
+  color: rgb(103, 87, 67);
 }
-
-.App-link {
-  color: #61dafb;
+form {
+  text-align: center;
+  width: 60%;
+  height: auto;
+  background-color: rgb(101, 201, 96);
+  margin-left: 20%;
+  border-radius: 10px;
+  padding: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+form button{
+  padding: 10px 20px ;
+  margin: 20px;
 }
