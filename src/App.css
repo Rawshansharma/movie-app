@@ -10,7 +10,12 @@
   margin-left: 50px;
 }
 .App h1{
+  text-shadow: -2px 2px 0 #292322,
+  -4px 4px 0 #f60,
+  -6px 6px 0 #292322,
+  -8px 8px 0 #fc0;
   text-align: center;
+  letter-spacing: 4px;
 }
 .movie-card img{
   width: 50%;
